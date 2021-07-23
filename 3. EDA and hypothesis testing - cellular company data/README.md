@@ -43,6 +43,4 @@ Data analysis will be done based on sample of clients from 2018 containing 500 u
 
 *Comments on tariff plans:*
 
-The cellular company rounds seconds to minutes and mb to gb:
-
-- each call is rounded separately: even if it lasted 1 second it will be paid as per 1 minute;for web traffic single sessions are not counted: instead total monthly amount of - - web traffic is rounded ahead - if user spent 1025 mb then it will be paid as per 2 gb;
+The cellular company rounds seconds to minutes and mb to gb: each call is rounded separately: even if it lasted 1 second it will be paid as per 1 minute;for web traffic single sessions are not counted: instead total monthly amount of web traffic is rounded ahead - if user spent 1025 mb then it will be paid as per 2 gb;
