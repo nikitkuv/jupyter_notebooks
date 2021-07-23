@@ -1,14 +1,32 @@
-# jupyter_notebooks
-Pet projects on Data science and Machine learning
+# Data preprocessing and exploratory data analysis
 
-Contents:
+## Exploratory data analysis: real estate data
+We have Saint-Petersburg, Russia and surrounding area real estate dataset.
 
-1. **Data preprocessing:**
-   - *Files*: 1_credit_data_preprocessing_ENG/RU.ipynb - English (ENG) and Russian (RU) versions of the project in jupyter notebook .ipynb formt;
-   - *Description*: Data preprocessing project on credit bank data;
-   - *Libraries used*: pandas, numpy, nltk, pymystem3, collections;
+**Goal**: explore parameters, which define market price of real estate property.
 
-2. **Exploratory data analysis:**
-   - *Files*: 2_saint_petersburg_real_estate_eda_ENG/RU.ipynb - English (ENG) and Russian (RU) versions of the project in jupyter notebook .ipynb formt;
-   - *Description*: Exploratory data analysis project on real estate data from Saint-Petersburg, Russia and surrounding region;
-   - *Libraries used*: pandas, numpy, matplotlib, seaborn, datetime;
+Each property has two types of data: first one - recieved from user who posted an offer for sale, second - cartographic data about property.
+
+## Dataset description
+   - airports_nearest — distance to the nearest airport (m)
+   - balcony — number of balconies
+   - ceiling_height — ceiling height (m)
+   - cityCenters_nearest — distance to city center (m)
+   - days_exposition — number of days an offer for sale was posted (from date of posting till withdrawal)
+   - first_day_exposition — posting date
+   - floor — floor
+   - floors_total — number of floors in the building
+   - is_apartment — apartments (boolean)
+   - kitchen_area — kitchen area (m²)
+   - last_price — property price at time of offer withdrawal (rubles)
+   - living_area — living area (m²)
+   - locality_name — locality name
+   - open_plan — open plan (boolean)
+   - parks_around3000 — number of parks in 3 km
+   - parks_nearest — distance to the nearest park (m)
+   - ponds_around3000 — number of ponds in 3 km
+   - ponds_nearest — distance to the nearest pond (m)
+   - rooms — number of rooms
+   - studio — studio (boolean)
+   - total_area — total area (m²)
+   - total_images — total number of property images
