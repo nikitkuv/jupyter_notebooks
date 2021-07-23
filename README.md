@@ -14,6 +14,6 @@ Contents:
    - *Libraries used*: pandas, numpy, matplotlib, seaborn, datetime;
 
 3. **Exploratory data analysis and hypothesis testing:**
-   - *Files*: mobile_operator_hypothesis_testing_ENG/RU.ipynb - English (ENG) and Russian (RU) versions of the project in jupyter notebook .ipynb formt;
+   - *Files*: cellular_company_hypothesis_testing_ENG/RU.ipynb - English (ENG) and Russian (RU) versions of the project in jupyter notebook .ipynb formt;
    - *Description*: Exploratory data analysis and hypothesis testing project on users data of cellular company;
    - *Libraries used*: pandas, numpy, matplotlib, seaborn, scipy, math;
