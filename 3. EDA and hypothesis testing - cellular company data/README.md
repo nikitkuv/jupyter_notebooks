@@ -17,6 +17,7 @@ Table users (information about users):
   - churn_date — date of churn (if contains missing value then user used the plan on the moment of data collection)
   - city — user city
   - tariff — user plan
+
 Table calls (data about calls):
   - id — call id
   - call_date — call date
@@ -26,11 +27,13 @@ Table calls (data about calls):
   - id — message id
   - message_date — message date
   - user_id — user id
+
 Table internet (data about web sessions):
   - id — session id
   - mb_used — web traffic used in mb
   - session_date — session date
   - user_id — user id
+
 Table tariffs (information about plans):
   - tariff_name — plan name
   - rub_monthly_fee — monthly subscription fee
