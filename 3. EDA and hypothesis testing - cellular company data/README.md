@@ -1,7 +1,7 @@
 # Exploratory data analysis and hypothesis testing
 
 ## Assessment of the most profitable tariff plan for cellular company
-There is the dataset containing data about two tariff plans of cellular company including cellular data, data on SMS and web traffic data.
+There is the dataset containing data about two tariff plans of cellular company including cellular data, data on SMS and web traffic.
 
 **Goal**: Assess and define the most profitable tariff plan in terms of revenue and which one should have bigger advertising dollars.
 
