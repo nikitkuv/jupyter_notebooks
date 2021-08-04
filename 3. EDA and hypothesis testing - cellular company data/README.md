@@ -8,7 +8,7 @@ There is the dataset containing data about two tariff plans of cellular company 
 Data analysis will be done based on sample of clients from 2018 containing 500 users of the company and their data regarding how much data in different communication types (cellular, messages, web) they spend;
 
 ## Data description
-  - Table users (information about users):
+Table users (information about users):
   - user_id — user id
   - first_name — user first name
   - last_name — user last name
@@ -17,7 +17,7 @@ Data analysis will be done based on sample of clients from 2018 containing 500 u
   - churn_date — date of churn (if contains missing value then user used the plan on the moment of data collection)
   - city — user city
   - tariff — user plan
-  - Table calls (data about calls):
+Table calls (data about calls):
   - id — call id
   - call_date — call date
   - duration — call duration in minutes
@@ -26,12 +26,12 @@ Data analysis will be done based on sample of clients from 2018 containing 500 u
   - id — message id
   - message_date — message date
   - user_id — user id
-  - Table internet (data about web sessions):
+Table internet (data about web sessions):
   - id — session id
   - mb_used — web traffic used in mb
   - session_date — session date
   - user_id — user id
-  - Table tariffs (information about plans):
+Table tariffs (information about plans):
   - tariff_name — plan name
   - rub_monthly_fee — monthly subscription fee
   - minutes_included — free minutes included in the plan
