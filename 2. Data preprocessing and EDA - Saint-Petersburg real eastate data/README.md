@@ -1,7 +1,7 @@
-# Data preprocessing and exploratory data analysis
+# Real estate data analysis
 
 ## Exploratory data analysis: real estate data
-We have Saint-Petersburg, Russia and surrounding area real estate dataset.
+There is Saint-Petersburg, Russia and surrounding area real estate dataset.
 
 **Goal**: explore parameters, which define market price of real estate property.
 
