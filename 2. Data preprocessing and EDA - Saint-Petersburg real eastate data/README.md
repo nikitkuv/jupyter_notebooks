@@ -3,7 +3,7 @@
 ## Exploratory data analysis: real estate data
 There is Saint-Petersburg, Russia and surrounding area real estate dataset.
 
-**Goal**: explore parameters, which define market price of real estate property.
+**Goal**: to explore parameters, which define market price of real estate property.
 
 Each property has two types of data: first one - recieved from user who posted an offer for sale, second - cartographic data about property.
 
