@@ -23,6 +23,6 @@ Contents:
 
 4. **Video games historical data and sales analysis:**
    - *Files*: games_sales_ENG/RU.ipynb - English (ENG) and Russian (RU) versions of the project in jupyter notebook .ipynb format;
-   - *Description*: 
+   - *Description*: the goal is to find relationships and patterns in successfully sellable games. It will allow to count on potentially popular product and plan advertising campaign.
    - *Skills*: Data preprocessing, exploratory data analysis and hypothesis testing;
    - *Libraries used*: pandas, numpy, matplotlib, seaborn, scipy, math;
