@@ -33,7 +33,7 @@ Contents:
    - *Skills*: Exploratory data analysis, feature engineering, machine learning, hyperparameter tuning;
    - *Libraries used*: sklearn, pandas, numpy, matplotlib, seaborn;
 
-6. **ML model - Tariff plan classification:**
+6. **ML model - Bank clients churn prediction:**
    - *Files*: bank_clients_churn_prediction_RU/ENG.ipynb - English (ENG) and Russian (RU) versions of the project in jupyter notebook .ipynb format;
    - *Description*: the goal is to create a ML model for bank clients churn prediction using imbalanced dataset
    - *Skills*: Exploratory data analysis, data preprocessing, feature engineering, machine learning, hyperparameter tuning, imbalanced classes classification, down/upsampling;
