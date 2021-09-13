@@ -1,6 +1,4 @@
-# Video games historical data and sales analysis
-
-## Analysis of video games success patterns
+# Video games historical data and sales analysis: analysis of video games success patterns
 Dataset consist of historical data about games sales, critic and user scores, genres and platforms.
 
 **Goal**: to find relationships and patterns in successfully sellable games. It will allow to count on potentially popular product and plan advertising campaign.
