@@ -26,3 +26,15 @@ Contents:
    - *Description*: the goal is to find relationships and patterns in successfully sellable games. It will allow to count on potentially popular product and plan advertising campaign.
    - *Skills*: Data preprocessing, exploratory data analysis and hypothesis testing;
    - *Libraries used*: pandas, numpy, matplotlib, seaborn, scipy, math;
+
+5. **ML model - Tariff plan classification:**
+   - *Files*: tariff_plan_classification_RU/ENG.ipynb - English (ENG) and Russian (RU) versions of the project in jupyter notebook .ipynb format;
+   - *Description*: the goal is to create a ML model for tariff plan recommendation
+   - *Skills*: Exploratory data analysis, feature engineering, machine learning, hyperparameter tuning;
+   - *Libraries used*: sklearn, pandas, numpy, matplotlib, seaborn;
+
+6. **ML model - Tariff plan classification:**
+   - *Files*: bank_clients_churn_prediction_RU/ENG.ipynb - English (ENG) and Russian (RU) versions of the project in jupyter notebook .ipynb format;
+   - *Description*: the goal is to create a ML model for bank clients churn prediction using imbalanced dataset
+   - *Skills*: Exploratory data analysis, data preprocessing, feature engineering, machine learning, hyperparameter tuning, imbalanced classes classification, down/upsampling;
+   - *Libraries used*: sklearn, pandas, numpy, matplotlib, seaborn, itertools;
