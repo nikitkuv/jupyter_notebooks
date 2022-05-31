@@ -8,7 +8,7 @@
 
 **Анализ данных видеоигр** 
 
-https://github.com/nikitkuv/jupyter_notebooks/tree/main/%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%20%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D1%85%20%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE%D0%B8%D0%B3%D1%80
+[Ссылка на проект](https://github.com/nikitkuv/jupyter_notebooks/tree/main/%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%20%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D1%85%20%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE%D0%B8%D0%B3%D1%80)
 
    - *Файлы*: games_sales_ENG/RU.ipynb;
    - *Описание задачи*: Нужно выявить определяющие успешность игры закономерности. Это позволит сделать ставку на потенциально популярный продукт и спланировать рекламные кампании.;
@@ -17,7 +17,7 @@ https://github.com/nikitkuv/jupyter_notebooks/tree/main/%D0%90%D0%BD%D0%B0%D0%BB
 
 **Анализ данных мобильного оператора**
 
-https://github.com/nikitkuv/jupyter_notebooks/tree/main/%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%20%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D1%85%20%D0%BC%D0%BE%D0%B1%D0%B8%D0%BB%D1%8C%D0%BD%D0%BE%D0%B3%D0%BE%20%D0%BE%D0%BF%D0%B5%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%B0
+[Ссылка на проект](https://github.com/nikitkuv/jupyter_notebooks/tree/main/%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%20%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D1%85%20%D0%BC%D0%BE%D0%B1%D0%B8%D0%BB%D1%8C%D0%BD%D0%BE%D0%B3%D0%BE%20%D0%BE%D0%BF%D0%B5%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%B0)
 
    - *Файлы*: cellular_company_hypothesis_testing_ENG/RU.ipynb;
    - *Описание задачи*: Определить, какой тарифный план наиболее выгодный с точки зрения получения выручки и на какой из них сделать акцент в плане распределения рекламного бюджета.
@@ -26,7 +26,7 @@ https://github.com/nikitkuv/jupyter_notebooks/tree/main/%D0%90%D0%BD%D0%B0%D0%BB
 
 **Определение возраста по фото**
 
-https://github.com/nikitkuv/jupyter_notebooks/tree/main/%D0%9E%D0%BF%D1%80%D0%B5%D0%B4%D0%B5%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%B2%D0%BE%D0%B7%D1%80%D0%B0%D1%81%D1%82%D0%B0%20%D0%BF%D0%BE%20%D1%84%D0%BE%D1%82%D0%BE
+[Ссылка на проект](https://github.com/nikitkuv/jupyter_notebooks/tree/main/%D0%9E%D0%BF%D1%80%D0%B5%D0%B4%D0%B5%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%B2%D0%BE%D0%B7%D1%80%D0%B0%D1%81%D1%82%D0%B0%20%D0%BF%D0%BE%20%D1%84%D0%BE%D1%82%D0%BE)
 
    - *Файлы*: faces_resnet_ENG/RU.ipynb;
    - *Описание задачи*: Построить модель, которая по фотографии определит приблизительный возраст человека.;
@@ -35,7 +35,7 @@ https://github.com/nikitkuv/jupyter_notebooks/tree/main/%D0%9E%D0%BF%D1%80%D0%B5
 
 **Предобработка банковских данных**
 
-https://github.com/nikitkuv/jupyter_notebooks/tree/main/%D0%9F%D1%80%D0%B5%D0%B4%D0%BE%D0%B1%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0%20%D0%B1%D0%B0%D0%BD%D0%BA%D0%BE%D0%B2%D1%81%D0%BA%D0%B8%D1%85%20%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D1%85
+[Ссылка на проект](https://github.com/nikitkuv/jupyter_notebooks/tree/main/%D0%9F%D1%80%D0%B5%D0%B4%D0%BE%D0%B1%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0%20%D0%B1%D0%B0%D0%BD%D0%BA%D0%BE%D0%B2%D1%81%D0%BA%D0%B8%D1%85%20%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D1%85)
 
    - *Файлы*: credit_data_preprocessing_ENG/RU.ipynb;
    - *Описание задачи*: Сделать предобработку данных и разобраться, влияют ли различные параметры клиента (семейное положение, количество детей) на факт погашения кредита в срок, есть ли зависимость между доходом клиента и фактом погашения кредита в срок, как разные цели кредита влияют на факт погашения кредита в срок.
@@ -44,7 +44,7 @@ https://github.com/nikitkuv/jupyter_notebooks/tree/main/%D0%9F%D1%80%D0%B5%D0%B4
 
 **Предобработка и анализ данных недвижимости**
 
-https://github.com/nikitkuv/jupyter_notebooks/tree/main/%D0%9F%D1%80%D0%B5%D0%B4%D0%BE%D0%B1%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0%20%D0%B8%20%D0%B0%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%20%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D1%85%20%D0%BD%D0%B5%D0%B4%D0%B2%D0%B8%D0%B6%D0%B8%D0%BC%D0%BE%D1%81%D1%82%D0%B8
+[Ссылка на проект](https://github.com/nikitkuv/jupyter_notebooks/tree/main/%D0%9F%D1%80%D0%B5%D0%B4%D0%BE%D0%B1%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0%20%D0%B8%20%D0%B0%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%20%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D1%85%20%D0%BD%D0%B5%D0%B4%D0%B2%D0%B8%D0%B6%D0%B8%D0%BC%D0%BE%D1%81%D1%82%D0%B8)
 
    - *Файлы*: saint_petersburg_real_estate_eda_ENG/RU.ipynb;
    - *Описание задачи*: Установить и исследовать параметры, определяющие рыночную стоимость объектов недвижимости.
@@ -53,7 +53,7 @@ https://github.com/nikitkuv/jupyter_notebooks/tree/main/%D0%9F%D1%80%D0%B5%D0%B4
 
 **Прогноз добычи нефти**
 
-https://github.com/nikitkuv/jupyter_notebooks/tree/main/%D0%9F%D1%80%D0%BE%D0%B3%D0%BD%D0%BE%D0%B7%20%D0%B4%D0%BE%D0%B1%D1%8B%D1%87%D0%B8%20%D0%BD%D0%B5%D1%84%D1%82%D0%B8
+[Ссылка на проект](https://github.com/nikitkuv/jupyter_notebooks/tree/main/%D0%9F%D1%80%D0%BE%D0%B3%D0%BD%D0%BE%D0%B7%20%D0%B4%D0%BE%D0%B1%D1%8B%D1%87%D0%B8%20%D0%BD%D0%B5%D1%84%D1%82%D0%B8)
 
    - *Файлы*: predicting_oil_production_RU/ENG.ipynb;
    - *Описание задачи*: Построить модель машинного обучения, которая поможет определить регион, где добыча принесёт наибольшую прибыль. Проанализировать возможную прибыль и риски техникой Bootstrap.
@@ -62,7 +62,7 @@ https://github.com/nikitkuv/jupyter_notebooks/tree/main/%D0%9F%D1%80%D0%BE%D0%B3
 
 **Прогноз количества заказов такси**
 
-https://github.com/nikitkuv/jupyter_notebooks/tree/main/%D0%9F%D1%80%D0%BE%D0%B3%D0%BD%D0%BE%D0%B7%20%D0%BA%D0%BE%D0%BB%D0%B8%D1%87%D0%B5%D1%81%D1%82%D0%B2%D0%B0%20%D0%B7%D0%B0%D0%BA%D0%B0%D0%B7%D0%BE%D0%B2%20%D1%82%D0%B0%D0%BA%D1%81%D0%B8
+[Ссылка на проект](https://github.com/nikitkuv/jupyter_notebooks/tree/main/%D0%9F%D1%80%D0%BE%D0%B3%D0%BD%D0%BE%D0%B7%20%D0%BA%D0%BE%D0%BB%D0%B8%D1%87%D0%B5%D1%81%D1%82%D0%B2%D0%B0%20%D0%B7%D0%B0%D0%BA%D0%B0%D0%B7%D0%BE%D0%B2%20%D1%82%D0%B0%D0%BA%D1%81%D0%B8)
 
    - *Файлы*: taxi_orders_time_series_RU/ENG.ipynb;
    - *Описание задачи*: Чтобы привлекать больше водителей в период пиковой нагрузки, нужно спрогнозировать количество заказов такси на следующий час, построив модель машинного обучения.
@@ -70,36 +70,54 @@ https://github.com/nikitkuv/jupyter_notebooks/tree/main/%D0%9F%D1%80%D0%BE%D0%B3
    - *Используемые библиотеки*: scipy, sklearn, lightgbm, itertools, pandas, numpy, matplotlib, seaborn;
 
 **Прогноз концентрации золота**
+
+[Ссылка на проект](https://github.com/nikitkuv/jupyter_notebooks/tree/main/%D0%9F%D1%80%D0%BE%D0%B3%D0%BD%D0%BE%D0%B7%20%D0%BA%D0%BE%D0%BD%D1%86%D0%B5%D0%BD%D1%82%D1%80%D0%B0%D1%86%D0%B8%D0%B8%20%D0%B7%D0%BE%D0%BB%D0%BE%D1%82%D0%B0)
+
    - *Файлы*: gold_recovery_prediction_RU/ENG.ipynb;
    - *Описание задачи*: Подготовить модель машинного обучения, предсказывающую коэффициент восстановления золота из золотосодержащей руды.
    - *Примененные навыки*: предобработка данных, исследовательский анализ данных, подготовка и расчет новых признаков, машинное обучение, настройка гиперпараметров модели, анализ результатов моделирование;
    - *Используемые библиотеки*: sklearn, lightgbm, pandas, numpy, matplotlib, seaborn;
 
 **Прогноз оттока клиентов банка**
+
+[Ссылка на проект](https://github.com/nikitkuv/jupyter_notebooks/tree/main/%D0%9F%D1%80%D0%BE%D0%B3%D0%BD%D0%BE%D0%B7%20%D0%BE%D1%82%D1%82%D0%BE%D0%BA%D0%B0%20%D0%BA%D0%BB%D0%B8%D0%B5%D0%BD%D1%82%D0%BE%D0%B2%20%D0%B1%D0%B0%D0%BD%D0%BA%D0%B0)
+
    - *Файлы*: bank_clients_churn_prediction_RU/ENG.ipynb;
    - *Описание задачи*: Нужно спрогнозировать, уйдёт клиент из банка в ближайшее время или нет, построив модель машинного обучения.
    - *Примененные навыки*: предобработка данных, исследовательский анализ данных, подготовка и расчет новых признаков, борьба с дисбалансом классов, машинное обучение, настройка гиперпараметров модели, анализ результатов моделирование;
    - *Используемые библиотеки*: imblearn, sklearn, pandas, numpy, matplotlib, seaborn, itertools;
 
 **Прогноз оттока клиентов оператора связи**
+
+[Ссылка на проект](https://github.com/nikitkuv/jupyter_notebooks/tree/main/%D0%9F%D1%80%D0%BE%D0%B3%D0%BD%D0%BE%D0%B7%20%D0%BE%D1%82%D1%82%D0%BE%D0%BA%D0%B0%20%D0%BA%D0%BB%D0%B8%D0%B5%D0%BD%D1%82%D0%BE%D0%B2%20%D0%BE%D0%BF%D0%B5%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%B0%20%D1%81%D0%B2%D1%8F%D0%B7%D0%B8)
+
    - *Файлы*: telecom_withdraw_RU/ENG.ipynb;
    - *Описание задачи*: Подготовить модель машинного обучения, способную предсказывать клиентов оператора сотовой связи, которые могут уйти.
    - *Примененные навыки*: предобработка данных, исследовательский анализ данных, подготовка и расчет новых признаков, борьба с дисбалансом классов, машинное обучение, настройка гиперпараметров модели, анализ результатов моделирование;
    - *Используемые библиотеки*: imblearn, sklearn, lightgbm, pandas, numpy, matplotlib, seaborn;
 
 **Прогноз цен на автомобили**
+
+[Ссылка на проект](https://github.com/nikitkuv/jupyter_notebooks/tree/main/%D0%9F%D1%80%D0%BE%D0%B3%D0%BD%D0%BE%D0%B7%20%D1%86%D0%B5%D0%BD%20%D0%BD%D0%B0%20%D0%B0%D0%B2%D1%82%D0%BE%D0%BC%D0%BE%D0%B1%D0%B8%D0%BB%D0%B8)
+
    - *Файлы*: car_sales_RU/ENG.ipynb;
    - *Описание задачи*: Нужно построить модель машинного обучения для определения стоимости автомобиля.
    - *Примененные навыки*: предобработка данных, исследовательский анализ данных, подготовка и расчет новых признаков, машинное обучение, настройка гиперпараметров модели, анализ результатов моделирование;
    - *Используемые библиотеки*: sklearn, lightgbm, pandas, numpy, matplotlib, seaborn;
 
 **Рекомендация тарифа мобильной связи**
+
+[Ссылка на проект](https://github.com/nikitkuv/jupyter_notebooks/tree/main/%D0%A0%D0%B5%D0%BA%D0%BE%D0%BC%D0%B5%D0%BD%D0%B4%D0%B0%D1%86%D0%B8%D1%8F%20%D1%82%D0%B0%D1%80%D0%B8%D1%84%D0%B0%20%D0%BC%D0%BE%D0%B1%D0%B8%D0%BB%D1%8C%D0%BD%D0%BE%D0%B9%20%D1%81%D0%B2%D1%8F%D0%B7%D0%B8)
+
    - *Файлы*: tariff_plan_classification_RU/ENG.ipynb;
    - *Описание задачи*: Нужно построить модель машинного обучения, способную проанализировать поведение клиентов и предложить пользователям новый тариф.
    - *Skills*: предобработка данных, исследовательский анализ данных, подготовка и расчет новых признаков, машинное обучение, настройка гиперпараметров модели, анализ результатов моделирование;
    - *Используемые библиотеки*: sklearn, pandas, numpy, matplotlib, seaborn;
 
 **Сентимент-анализ комментариев**
+
+[Ссылка на проект](https://github.com/nikitkuv/jupyter_notebooks/tree/main/%D0%A1%D0%B5%D0%BD%D1%82%D0%B8%D0%BC%D0%B5%D0%BD%D1%82-%D0%B0%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%20%D0%BA%D0%BE%D0%BC%D0%BC%D0%B5%D0%BD%D1%82%D0%B0%D1%80%D0%B8%D0%B5%D0%B2)
+
    - *Файлы*: toxic_comments_RU/ENG.ipynb;
    - *Описание задачи*: Построить модель модель машинного обучения, способную классифицировать комментарии на позитивные и негативные.
    - *Примененные навыки*: NLP предобработка данных, исследовательский анализ данных, подготовка и расчет новых NLP признаков, машинное обучение, борьба с дисбалансом классов, настройка гиперпараметров модели, анализ результатов моделирование;
