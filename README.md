@@ -6,82 +6,103 @@
 
 Содержание:
 
-**Анализ данных видеоигр**
+**Анализ данных видеоигр** 
+
+https://github.com/nikitkuv/jupyter_notebooks/tree/main/%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%20%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D1%85%20%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE%D0%B8%D0%B3%D1%80
+
    - *Файлы*: games_sales_ENG/RU.ipynb;
    - *Описание задачи*: Нужно выявить определяющие успешность игры закономерности. Это позволит сделать ставку на потенциально популярный продукт и спланировать рекламные кампании.;
    - *Примененные навыки*: предобработка данных, исследовательский анализ данных, статистическая проверка гипотиз, формирование выводов;
    - *Используемые библиотеки*: pandas, numpy, matplotlib, seaborn, scipy, math;
 
 **Анализ данных мобильного оператора**
+
+https://github.com/nikitkuv/jupyter_notebooks/tree/main/%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%20%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D1%85%20%D0%BC%D0%BE%D0%B1%D0%B8%D0%BB%D1%8C%D0%BD%D0%BE%D0%B3%D0%BE%20%D0%BE%D0%BF%D0%B5%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%B0
+
    - *Файлы*: cellular_company_hypothesis_testing_ENG/RU.ipynb;
    - *Описание задачи*: Определить, какой тарифный план наиболее выгодный с точки зрения получения выручки и на какой из них сделать акцент в плане распределения рекламного бюджета.
-   - *Примененные навыки*: предобработка данных, исследовательский анализ данных, статистическая проверка гипотиз, формирование выводов;
+   - *Примененные навыки*: предобработка данных, объединение данных их нескольких таблиц, исследовательский анализ данных, статистическая проверка гипотиз, формирование выводов;
    - *Используемые библиотеки*: pandas, numpy, matplotlib, seaborn, scipy, math;
 
 **Определение возраста по фото**
+
+https://github.com/nikitkuv/jupyter_notebooks/tree/main/%D0%9E%D0%BF%D1%80%D0%B5%D0%B4%D0%B5%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%B2%D0%BE%D0%B7%D1%80%D0%B0%D1%81%D1%82%D0%B0%20%D0%BF%D0%BE%20%D1%84%D0%BE%D1%82%D0%BE
+
    - *Файлы*: faces_resnet_ENG/RU.ipynb;
    - *Описание задачи*: Построить модель, которая по фотографии определит приблизительный возраст человека.;
    - *Примененные навыки*: предобработка данных, исследовательский анализ данных, глубокое обучение, работа с изображениями, анализ результатов моделирования;
    - *Используемые библиотеки*: tensorflow/keras, PIL, pandas, numpy;
 
 **Предобработка банковских данных**
+
+https://github.com/nikitkuv/jupyter_notebooks/tree/main/%D0%9F%D1%80%D0%B5%D0%B4%D0%BE%D0%B1%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0%20%D0%B1%D0%B0%D0%BD%D0%BA%D0%BE%D0%B2%D1%81%D0%BA%D0%B8%D1%85%20%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D1%85
+
    - *Файлы*: credit_data_preprocessing_ENG/RU.ipynb;
    - *Описание задачи*: Сделать предобработку данных и разобраться, влияют ли различные параметры клиента (семейное положение, количество детей) на факт погашения кредита в срок, есть ли зависимость между доходом клиента и фактом погашения кредита в срок, как разные цели кредита влияют на факт погашения кредита в срок.
    - *Примененные навыки*: предобработка данных, исследовательский анализ данных;
    - *Используемые библиотеки*: pandas, numpy, nltk, pymystem3, collections;
 
 **Предобработка и анализ данных недвижимости**
+
+https://github.com/nikitkuv/jupyter_notebooks/tree/main/%D0%9F%D1%80%D0%B5%D0%B4%D0%BE%D0%B1%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0%20%D0%B8%20%D0%B0%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%20%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D1%85%20%D0%BD%D0%B5%D0%B4%D0%B2%D0%B8%D0%B6%D0%B8%D0%BC%D0%BE%D1%81%D1%82%D0%B8
+
    - *Файлы*: saint_petersburg_real_estate_eda_ENG/RU.ipynb;
-   - *Описание задачи*: analysing and exploring parameters, which define market price of real estate property in Saint-Petersburg, Russia and surrounding regions;
-   - *Примененные навыки*: data preprocessing, exploratory data analysis;
+   - *Описание задачи*: Установить и исследовать параметры, определяющие рыночную стоимость объектов недвижимости.
+   - *Примененные навыки*: предобработка данных, исследовательский анализ данных;
    - *Используемые библиотеки*: pandas, numpy, matplotlib, seaborn, datetime;
 
 **Прогноз добычи нефти**
+
+https://github.com/nikitkuv/jupyter_notebooks/tree/main/%D0%9F%D1%80%D0%BE%D0%B3%D0%BD%D0%BE%D0%B7%20%D0%B4%D0%BE%D0%B1%D1%8B%D1%87%D0%B8%20%D0%BD%D0%B5%D1%84%D1%82%D0%B8
+
    - *Файлы*: predicting_oil_production_RU/ENG.ipynb;
-   - *Описание задачи*: the goal is to create a ML model that will help to choose the best region for oil production using ML and bootstrap technique;
-   - *Примененные навыки*: exploratory data analysis, data preprocessing, feature engineering, machine learning, bootstrap, post-modeling analysis;
+   - *Описание задачи*: Построить модель машинного обучения, которая поможет определить регион, где добыча принесёт наибольшую прибыль. Проанализировать возможную прибыль и риски техникой Bootstrap.
+   - *Примененные навыки*: предобработка данных, исследовательский анализ данных, машинное обучение, bootstrap, анализ результатов моделирование;
    - *Используемые библиотеки*: sklearn, scipy, pandas, numpy, matplotlib, seaborn;
 
 **Прогноз количества заказов такси**
+
+https://github.com/nikitkuv/jupyter_notebooks/tree/main/%D0%9F%D1%80%D0%BE%D0%B3%D0%BD%D0%BE%D0%B7%20%D0%BA%D0%BE%D0%BB%D0%B8%D1%87%D0%B5%D1%81%D1%82%D0%B2%D0%B0%20%D0%B7%D0%B0%D0%BA%D0%B0%D0%B7%D0%BE%D0%B2%20%D1%82%D0%B0%D0%BA%D1%81%D0%B8
+
    - *Файлы*: taxi_orders_time_series_RU/ENG.ipynb;
-   - *Описание задачи*: the goal is to create a ML to predict number of taxi orders using time series
-   - *Примененные навыки*: time series data preprocessing, exploratory data analysis, time series feature engineering, machine learning, hyperparameter tuning, post-modeling analysis;
-   - *Используемые библиотеки*: statsmodels, sklearn, lightgbm, itertools, pandas, numpy, matplotlib, seaborn;
+   - *Описание задачи*: Чтобы привлекать больше водителей в период пиковой нагрузки, нужно спрогнозировать количество заказов такси на следующий час, построив модель машинного обучения.
+   - *Примененные навыки*: предобработка данных временных рядов, исследовательский анализ данных временных рядов, подготовка и расчет признаков для временных рядов, машинное обучение, настройка гиперпараметров модели, анализ результатов моделирование;
+   - *Используемые библиотеки*: scipy, sklearn, lightgbm, itertools, pandas, numpy, matplotlib, seaborn;
 
 **Прогноз концентрации золота**
    - *Файлы*: gold_recovery_prediction_RU/ENG.ipynb;
-   - *Описание задачи*: the goal is to create a ML to predict gold recovery coefficient;
-   - *Примененные навыки*: data preprocessing, exploratory data analysis, feature engineering, machine learning, hyperparameter tuning, post-modeling analysis;
+   - *Описание задачи*: Подготовить модель машинного обучения, предсказывающую коэффициент восстановления золота из золотосодержащей руды.
+   - *Примененные навыки*: предобработка данных, исследовательский анализ данных, подготовка и расчет новых признаков, машинное обучение, настройка гиперпараметров модели, анализ результатов моделирование;
    - *Используемые библиотеки*: sklearn, lightgbm, pandas, numpy, matplotlib, seaborn;
 
 **Прогноз оттока клиентов банка**
    - *Файлы*: bank_clients_churn_prediction_RU/ENG.ipynb;
-   - *Описание задачи*: the goal is to create a ML model for bank clients churn prediction using imbalanced dataset
-   - *Примененные навыки*: data preprocessing, exploratory data analysis, feature engineering, machine learning, hyperparameter tuning, imbalanced classes classification, down/upsampling, post-modeling analysis;
-   - *Используемые библиотеки*: sklearn, pandas, numpy, matplotlib, seaborn, itertools;
+   - *Описание задачи*: Нужно спрогнозировать, уйдёт клиент из банка в ближайшее время или нет, построив модель машинного обучения.
+   - *Примененные навыки*: предобработка данных, исследовательский анализ данных, подготовка и расчет новых признаков, борьба с дисбалансом классов, машинное обучение, настройка гиперпараметров модели, анализ результатов моделирование;
+   - *Используемые библиотеки*: imblearn, sklearn, pandas, numpy, matplotlib, seaborn, itertools;
 
 **Прогноз оттока клиентов оператора связи**
    - *Файлы*: telecom_withdraw_RU/ENG.ipynb;
-   - *Описание задачи*: the goal is to 
-   - *Примененные навыки*: data preprocessing, exploratory data analysis, feature engineering, machine learning, hyperparameter tuning, imbalanced classes classification, down/upsampling, post-modeling analysis;
+   - *Описание задачи*: Подготовить модель машинного обучения, способную предсказывать клиентов оператора сотовой связи, которые могут уйти.
+   - *Примененные навыки*: предобработка данных, исследовательский анализ данных, подготовка и расчет новых признаков, борьба с дисбалансом классов, машинное обучение, настройка гиперпараметров модели, анализ результатов моделирование;
    - *Используемые библиотеки*: imblearn, sklearn, lightgbm, pandas, numpy, matplotlib, seaborn;
 
 **Прогноз цен на автомобили**
    - *Файлы*: car_sales_RU/ENG.ipynb;
-   - *Описание задачи*: the goal is to create a ML model to define the price of a car
-   - *Примененные навыки*: data preprocessing, exploratory data analysis, feature engineering, machine learning, hyperparameter tuning, post-modeling analysis;
+   - *Описание задачи*: Нужно построить модель машинного обучения для определения стоимости автомобиля.
+   - *Примененные навыки*: предобработка данных, исследовательский анализ данных, подготовка и расчет новых признаков, машинное обучение, настройка гиперпараметров модели, анализ результатов моделирование;
    - *Используемые библиотеки*: sklearn, lightgbm, pandas, numpy, matplotlib, seaborn;
 
 **Рекомендация тарифа мобильной связи**
    - *Файлы*: tariff_plan_classification_RU/ENG.ipynb;
-   - *Описание задачи*: the goal is to create a ML model for tariff plan recommendation;
-   - *Skills*: exploratory data analysis, feature engineering, machine learning, hyperparameter tuning, post-modeling analysis;
+   - *Описание задачи*: Нужно построить модель машинного обучения, способную проанализировать поведение клиентов и предложить пользователям новый тариф.
+   - *Skills*: предобработка данных, исследовательский анализ данных, подготовка и расчет новых признаков, машинное обучение, настройка гиперпараметров модели, анализ результатов моделирование;
    - *Используемые библиотеки*: sklearn, pandas, numpy, matplotlib, seaborn;
 
 **Сентимент-анализ комментариев**
    - *Файлы*: toxic_comments_RU/ENG.ipynb;
-   - *Описание задачи*: the goal is to create a ML model to classify comments as either negative or positive;
-   - *Примененные навыки*: NLP data preprocessing, imbalanced classes classification, NLP feature engineering, machine learning, hyperparameter tuning, post-modeling analysis;
+   - *Описание задачи*: Построить модель модель машинного обучения, способную классифицировать комментарии на позитивные и негативные.
+   - *Примененные навыки*: NLP предобработка данных, исследовательский анализ данных, подготовка и расчет новых NLP признаков, машинное обучение, борьба с дисбалансом классов, настройка гиперпараметров модели, анализ результатов моделирование;
    - *Используемые библиотеки*: nltk, re, sklearn, imblearn, lightgbm, itertools, pandas, numpy, matplotlib, seaborn, tqdm;
 
 
