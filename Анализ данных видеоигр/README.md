@@ -1,17 +1,17 @@
-# Video games historical data and sales analysis: analysis of video games success patterns
-Dataset consist of historical data about games sales, critic and user scores, genres and platforms.
+# Анализ закономерностей успешности видеоигр
+Рассматриваются исторические данные о продажах видеоигр, оценки пользователей и экспертов, жанры и платформы.
 
-**Goal**: to find relationships and patterns in successfully sellable games. It will allow to count on potentially popular product and plan advertising campaign.
+**Цель**: Нужно выявить определяющие успешность игры закономерности. Это позволит сделать ставку на потенциально популярный продукт и спланировать рекламные кампании.
 
-## Data description
-  - Name — game name
-  - Platform — platform
-  - Year_of_Release — game year of release
-  - Genre — genre
-  - NA_sales — sales in North America region in millions of copies
-  - EU_sales — sales in Europe region in millions of copies
-  - JP_sales — sales in Japan region in millions of copies
-  - Other_sales — sales in other world in millions of copies
-  - Critic_Score — critic score (0-100)
-  - User_Score — user score (0-10)
-  - Rating — ESRB (Entertainment Software Rating Board) rating of a game
+## Описание данных
+  - Name — название игры
+  - Platform — платформа
+  - Year_of_Release — год выпуска
+  - Genre — жанр игры
+  - NA_sales — продажи в Северной Америке (миллионы проданных копий)
+  - EU_sales — продажи в Европе (миллионы проданных копий)
+  - JP_sales — продажи в Японии (миллионы проданных копий)
+  - Other_sales — продажи в других странах (миллионы проданных копий)
+  - Critic_Score — оценка критиков (максимум 100)
+  - User_Score — оценка пользователей (максимум 10)
+  - Rating — рейтинг от организации ESRB (англ. Entertainment Software Rating Board). Эта ассоциация определяет рейтинг компьютерных игр и присваивает им подходящую возрастную категорию.
