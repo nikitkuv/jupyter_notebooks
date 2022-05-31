@@ -1,47 +1,51 @@
-# Exploratory data analysis and hypothesis testing: assessment of the most profitable tariff plan for cellular company
-There is the dataset containing data about two tariff plans of cellular company including cellular data, data on SMS and web traffic.
+# Определение перспективного тарифа для телеком компании
+Рассматриваются данные по тарифам телеком компании, включающие информацию по различным типам связи: звонки мобильной связи, SMS сообщения, интернет трафик. Предлагаются два тарифных плана: «Смарт» и «Ультра».
 
-**Goal**: assess and define the most profitable tariff plan in terms of revenue and which one should have bigger advertising budget.
+**Цель**: Определить, какой тарифный план наиболее выгодный с точки зрения получения выручки и на какой из них сделать акцент в плане распределения рекламного бюджета.
 
-Data analysis will be done based on sample of clients from 2018 containing 500 users of the company and their data regarding how much data in different communication types (cellular, messages, web) they spend;
+Нужно провести предварительный анализ тарифов на небольшой выборке клиентов. В распоряжении данные 500 пользователей телеком компании: кто они, откуда, каким тарифом пользуются, сколько звонков и сообщений каждый отправил за 2018 год. Нужно проанализировать поведение клиентов и сделать вывод — какой тариф лучше.
 
-## Data description
-Table users (information about users):
-  - user_id — user id
-  - first_name — user first name
-  - last_name — user last name
-  - age — age in years
-  - reg_date — date of registration
-  - churn_date — date of churn (if contains missing value then user used the plan on the moment of data collection)
-  - city — user city
-  - tariff — user plan
+## Описание данных
+Таблица users (информация о пользователях):
+  - user_id — уникальный идентификатор пользователя
+  - first_name — имя пользователя
+  - last_name — фамилия пользователя
+  - age — возраст пользователя (годы)
+  - reg_date — дата подключения тарифа (день, месяц, год)
+  - churn_date — дата прекращения пользования тарифом (если значение пропущено, то тариф ещё действовал на момент выгрузки данных)
+  - city — город проживания пользователя
+  - tariff — название тарифного плана
 
-Table calls (data about calls):
-  - id — call id
-  - call_date — call date
-  - duration — call duration in minutes
-  - user_id — user id
-  - Table messages (data about messages):
-  - id — message id
-  - message_date — message date
-  - user_id — user id
+Таблица calls (информация о звонках):
+  - id — уникальный номер звонка
+  - call_date — дата звонка
+  - duration — длительность звонка в минутах
+  - user_id — идентификатор пользователя, сделавшего звонок
 
-Table internet (data about web sessions):
-  - id — session id
-  - mb_used — web traffic used in mb
-  - session_date — session date
-  - user_id — user id
+Таблица messages (информация о сообщениях):
+  - id — уникальный номер сообщения
+  - message_date — дата сообщения
+  - user_id — идентификатор пользователя, отправившего сообщение
 
-Table tariffs (information about plans):
-  - tariff_name — plan name
-  - rub_monthly_fee — monthly subscription fee
-  - minutes_included — free minutes included in the plan
-  - messages_included — free messgaes included in the plan
-  - mb_per_month_included — free web traffic amount included in the plan
-  - rub_per_minute — price of a minute above free plan in rubles (for example, if plan has 100 free minutes and user spent 101 minutes then user will pay addition fee above the plan)
-  - rub_per_message — price of a message above free plan in rubles
-  - rub_per_gb — price of a gb above free plan in rubles (1 gb = 1024 mb)
+Таблица internet (информация об интернет-сессиях):
+  - id — уникальный номер сессии
+  - mb_used — объём потраченного за сессию интернет-трафика (в мегабайтах)
+  - session_date — дата интернет-сессии
+  - user_id — идентификатор пользователя
 
-*Comments on tariff plans:*
+Таблица tariffs (информация о тарифах):
+  - tariff_name — название тарифа
+  - rub_monthly_fee — ежемесячная абонентская плата в рублях
+  - minutes_included — количество минут разговора в месяц, включённых в абонентскую плату
+  - messages_included — количество сообщений в месяц, включённых в абонентскую плату
+  - mb_per_month_included — объём интернет-трафика, включённого в абонентскую плату (в мегабайтах)
+  - rub_per_minute — стоимость минуты разговора сверх тарифного пакета (например, если в тарифе 100 минут разговора в месяц, то со 101 минуты будет взиматься плата)
+  - rub_per_message — стоимость отправки сообщения сверх тарифного пакета
+  - rub_per_gb — стоимость дополнительного гигабайта интернет-трафика сверх тарифного пакета (1 гигабайт = 1024 мегабайта)
 
-The cellular company rounds seconds to minutes and mb to gb: each call is rounded separately: even if it lasted 1 second it will be paid as per 1 minute;for web traffic single sessions are not counted: instead total monthly amount of web traffic is rounded ahead - if user spent 1025 mb then it will be paid as per 2 gb;
+*Примечание по тарифам:*
+
+Компания в своих тарифах всегда округляет секунды до минут, а мегабайты — до гигабайт:
+
+  - каждый звонок округляется отдельно: даже если он длился всего 1 секунду, будет засчитан как 1 минута;
+  - для веб-трафика отдельные сессии не считаются: вместо этого общая сумма за месяц округляется в бо́льшую сторону - если абонент использует 1025 мегабайт в этом месяце, с него возьмут плату за 2 гигабайта;
