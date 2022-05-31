@@ -1,87 +1,90 @@
 # jupyter_notebooks
-Pet projects on Data science and Machine learning
+Пет-проекты по анализу данных и машинному обучению
 
-English (ENG) and Russian (RU) versions of the projects in jupyter notebook .ipynb format
+Проекты выложены в формате .ipynb.
+Большая часть проектов представлена на русском языке (RU), но часть также и на английском (ENG).
 
-Contents:
+Содержание:
 
-**bank clients churn prediction:**
-   - *Files*: bank_clients_churn_prediction_RU/ENG.ipynb;
-   - *Description*: the goal is to create a ML model for bank clients churn prediction using imbalanced dataset
-   - *Skills*: data preprocessing, exploratory data analysis, feature engineering, machine learning, hyperparameter tuning, imbalanced classes classification, down/upsampling, post-modeling analysis;
-   - *Libraries used*: sklearn, pandas, numpy, matplotlib, seaborn, itertools;
+**Анализ данных видеоигр**
+   - *Файлы*: games_sales_ENG/RU.ipynb;
+   - *Описание задачи*: Нужно выявить определяющие успешность игры закономерности. Это позволит сделать ставку на потенциально популярный продукт и спланировать рекламные кампании.;
+   - *Примененные навыки*: предобработка данных, исследовательский анализ данных, статистическая проверка гипотиз, формирование выводов;
+   - *Используемые библиотеки*: pandas, numpy, matplotlib, seaborn, scipy, math;
 
-**car sales:**
-   - *Files*: car_sales_RU/ENG.ipynb;
-   - *Description*: the goal is to create a ML model to define the price of a car
-   - *Skills*: data preprocessing, exploratory data analysis, feature engineering, machine learning, hyperparameter tuning, post-modeling analysis;
-   - *Libraries used*: sklearn, lightgbm, pandas, numpy, matplotlib, seaborn;
+**Анализ данных мобильного оператора**
+   - *Файлы*: cellular_company_hypothesis_testing_ENG/RU.ipynb;
+   - *Описание задачи*: Определить, какой тарифный план наиболее выгодный с точки зрения получения выручки и на какой из них сделать акцент в плане распределения рекламного бюджета.
+   - *Примененные навыки*: предобработка данных, исследовательский анализ данных, статистическая проверка гипотиз, формирование выводов;
+   - *Используемые библиотеки*: pandas, numpy, matplotlib, seaborn, scipy, math;
 
-**cellular data:**
-   - *Files*: cellular_company_hypothesis_testing_ENG/RU.ipynb;
-   - *Description*: assessment and defining the most profitable tariff plan in terms of revenue on cellular company data;
-   - *Skills*: data preprocessing, exploratory data analysis, hypothesis testing;
-   - *Libraries used*: pandas, numpy, matplotlib, seaborn, scipy, math;
+**Определение возраста по фото**
+   - *Файлы*: faces_resnet_ENG/RU.ipynb;
+   - *Описание задачи*: Построить модель, которая по фотографии определит приблизительный возраст человека.;
+   - *Примененные навыки*: предобработка данных, исследовательский анализ данных, глубокое обучение, работа с изображениями, анализ результатов моделирования;
+   - *Используемые библиотеки*: tensorflow/keras, PIL, pandas, numpy;
 
-**credit data:**
-   - *Files*: credit_data_preprocessing_ENG/RU.ipynb;
-   - *Description*: data preprocessing project on bank credit data;
-   - *Skills*: data preprocessing;
-   - *Libraries used*: pandas, numpy, nltk, pymystem3, collections;
+**Предобработка банковских данных**
+   - *Файлы*: credit_data_preprocessing_ENG/RU.ipynb;
+   - *Описание задачи*: Сделать предобработку данных и разобраться, влияют ли различные параметры клиента (семейное положение, количество детей) на факт погашения кредита в срок, есть ли зависимость между доходом клиента и фактом погашения кредита в срок, как разные цели кредита влияют на факт погашения кредита в срок.
+   - *Примененные навыки*: предобработка данных, исследовательский анализ данных;
+   - *Используемые библиотеки*: pandas, numpy, nltk, pymystem3, collections;
 
-**faces:**
-   - *Files*: faces_resnet_ENG/RU.ipynb;
-   - *Description*: the goal is to create a ML model to define the age of a person by photo;
-   - *Skills*: data preprocessing, exploratory data analysis, deep learning, post-modeling analysis;
-   - *Libraries used*: tensorflow/keras, PIL, pandas, numpy, nltk, pymystem3, collections;
+**Предобработка и анализ данных недвижимости**
+   - *Файлы*: saint_petersburg_real_estate_eda_ENG/RU.ipynb;
+   - *Описание задачи*: analysing and exploring parameters, which define market price of real estate property in Saint-Petersburg, Russia and surrounding regions;
+   - *Примененные навыки*: data preprocessing, exploratory data analysis;
+   - *Используемые библиотеки*: pandas, numpy, matplotlib, seaborn, datetime;
 
-**gold recovery prediction:**
-   - *Files*: gold_recovery_prediction_RU/ENG.ipynb;
-   - *Description*: the goal is to create a ML to predict gold recovery coefficient;
-   - *Skills*: data preprocessing, exploratory data analysis, feature engineering, machine learning, hyperparameter tuning, post-modeling analysis;
-   - *Libraries used*: sklearn, lightgbm, pandas, numpy, matplotlib, seaborn;
+**Прогноз добычи нефти**
+   - *Файлы*: predicting_oil_production_RU/ENG.ipynb;
+   - *Описание задачи*: the goal is to create a ML model that will help to choose the best region for oil production using ML and bootstrap technique;
+   - *Примененные навыки*: exploratory data analysis, data preprocessing, feature engineering, machine learning, bootstrap, post-modeling analysis;
+   - *Используемые библиотеки*: sklearn, scipy, pandas, numpy, matplotlib, seaborn;
 
-**oil production prediction:**
-   - *Files*: predicting_oil_production_RU/ENG.ipynb;
-   - *Description*: the goal is to create a ML model that will help to choose the best region for oil production using ML and bootstrap technique;
-   - *Skills*: exploratory data analysis, data preprocessing, feature engineering, machine learning, bootstrap, post-modeling analysis;
-   - *Libraries used*: sklearn, scipy, pandas, numpy, matplotlib, seaborn;
+**Прогноз количества заказов такси**
+   - *Файлы*: taxi_orders_time_series_RU/ENG.ipynb;
+   - *Описание задачи*: the goal is to create a ML to predict number of taxi orders using time series
+   - *Примененные навыки*: time series data preprocessing, exploratory data analysis, time series feature engineering, machine learning, hyperparameter tuning, post-modeling analysis;
+   - *Используемые библиотеки*: statsmodels, sklearn, lightgbm, itertools, pandas, numpy, matplotlib, seaborn;
 
-**real estate:**
-   - *Files*: saint_petersburg_real_estate_eda_ENG/RU.ipynb;
-   - *Description*: analysing and exploring parameters, which define market price of real estate property in Saint-Petersburg, Russia and surrounding regions;
-   - *Skills*: data preprocessing, exploratory data analysis;
-   - *Libraries used*: pandas, numpy, matplotlib, seaborn, datetime;
+**Прогноз концентрации золота**
+   - *Файлы*: gold_recovery_prediction_RU/ENG.ipynb;
+   - *Описание задачи*: the goal is to create a ML to predict gold recovery coefficient;
+   - *Примененные навыки*: data preprocessing, exploratory data analysis, feature engineering, machine learning, hyperparameter tuning, post-modeling analysis;
+   - *Используемые библиотеки*: sklearn, lightgbm, pandas, numpy, matplotlib, seaborn;
 
-**tariff plan classification:**
-   - *Files*: tariff_plan_classification_RU/ENG.ipynb;
-   - *Description*: the goal is to create a ML model for tariff plan recommendation;
+**Прогноз оттока клиентов банка**
+   - *Файлы*: bank_clients_churn_prediction_RU/ENG.ipynb;
+   - *Описание задачи*: the goal is to create a ML model for bank clients churn prediction using imbalanced dataset
+   - *Примененные навыки*: data preprocessing, exploratory data analysis, feature engineering, machine learning, hyperparameter tuning, imbalanced classes classification, down/upsampling, post-modeling analysis;
+   - *Используемые библиотеки*: sklearn, pandas, numpy, matplotlib, seaborn, itertools;
+
+**Прогноз оттока клиентов оператора связи**
+   - *Файлы*: telecom_withdraw_RU/ENG.ipynb;
+   - *Описание задачи*: the goal is to 
+   - *Примененные навыки*: data preprocessing, exploratory data analysis, feature engineering, machine learning, hyperparameter tuning, imbalanced classes classification, down/upsampling, post-modeling analysis;
+   - *Используемые библиотеки*: imblearn, sklearn, lightgbm, pandas, numpy, matplotlib, seaborn;
+
+**Прогноз цен на автомобили**
+   - *Файлы*: car_sales_RU/ENG.ipynb;
+   - *Описание задачи*: the goal is to create a ML model to define the price of a car
+   - *Примененные навыки*: data preprocessing, exploratory data analysis, feature engineering, machine learning, hyperparameter tuning, post-modeling analysis;
+   - *Используемые библиотеки*: sklearn, lightgbm, pandas, numpy, matplotlib, seaborn;
+
+**Рекомендация тарифа мобильной связи**
+   - *Файлы*: tariff_plan_classification_RU/ENG.ipynb;
+   - *Описание задачи*: the goal is to create a ML model for tariff plan recommendation;
    - *Skills*: exploratory data analysis, feature engineering, machine learning, hyperparameter tuning, post-modeling analysis;
-   - *Libraries used*: sklearn, pandas, numpy, matplotlib, seaborn;
+   - *Используемые библиотеки*: sklearn, pandas, numpy, matplotlib, seaborn;
 
-**taxi orders:**
-   - *Files*: taxi_orders_time_series_RU/ENG.ipynb;
-   - *Description*: the goal is to create a ML to predict number of taxi orders using time series
-   - *Skills*: time series data preprocessing, exploratory data analysis, time series feature engineering, machine learning, hyperparameter tuning, post-modeling analysis;
-   - *Libraries used*: statsmodels, sklearn, lightgbm, itertools, pandas, numpy, matplotlib, seaborn;
+**Сентимент-анализ комментариев**
+   - *Файлы*: toxic_comments_RU/ENG.ipynb;
+   - *Описание задачи*: the goal is to create a ML model to classify comments as either negative or positive;
+   - *Примененные навыки*: NLP data preprocessing, imbalanced classes classification, NLP feature engineering, machine learning, hyperparameter tuning, post-modeling analysis;
+   - *Используемые библиотеки*: nltk, re, sklearn, imblearn, lightgbm, itertools, pandas, numpy, matplotlib, seaborn, tqdm;
 
-**telecom withraw:**
-   - *Files*: telecom_withdraw_RU/ENG.ipynb;
-   - *Description*: the goal is to 
-   - *Skills*: data preprocessing, exploratory data analysis, feature engineering, machine learning, hyperparameter tuning, imbalanced classes classification, down/upsampling, post-modeling analysis;
-   - *Libraries used*: imblearn, sklearn, lightgbm, pandas, numpy, matplotlib, seaborn;
 
-**toxic comments:**
-   - *Files*: toxic_comments_RU/ENG.ipynb;
-   - *Description*: the goal is to create a ML model to classify comments as either negative or positive;
-   - *Skills*: NLP data preprocessing, imbalanced classes classification, NLP feature engineering, machine learning, hyperparameter tuning, post-modeling analysis;
-   - *Libraries used*: nltk, re, sklearn, imblearn, lightgbm, itertools, pandas, numpy, matplotlib, seaborn, tqdm;
-
-**video games:**
-   - *Files*: games_sales_ENG/RU.ipynb;
-   - *Description*: the goal is to find relationships and patterns in successfully sellable games. It will allow to count on potentially popular product and plan advertising campaign;
-   - *Skills*: data preprocessing, exploratory data analysis, hypothesis testing, post-modeling analysis;
-   - *Libraries used*: pandas, numpy, matplotlib, seaborn, scipy, math;
 
 
 
