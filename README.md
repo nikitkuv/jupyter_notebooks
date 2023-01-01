@@ -115,7 +115,8 @@
 
 **Сентимент-анализ комментариев**
 
-[Ссылка на проект](https://github.com/nikitkuv/jupyter_notebooks/tree/main/%D0%A1%D0%B5%D0%BD%D1%82%D0%B8%D0%BC%D0%B5%D0%BD%D1%82%D0%B0%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%20%D0%BA%D0%BE%D0%BC%D0%BC%D0%B5%D0%BD%D1%82%D0%B0%D1%80%D0%B8%D0%B5%D0%B2)
+[Ссылка на проект]
+(https://github.com/nikitkuv/jupyter_notebooks/tree/main/%D0%A1%D0%B5%D0%BD%D1%82%D0%B8%D0%BC%D0%B5%D0%BD%D1%82-%D0%B0%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%20%D0%BA%D0%BE%D0%BC%D0%BC%D0%B5%D0%BD%D1%82%D0%B0%D1%80%D0%B8%D0%B5%D0%B2)
 
    - *Файлы*: toxic_comments_RU.ipynb;
    - *Описание задачи*: Построить модель модель машинного обучения, способную классифицировать комментарии на позитивные и негативные.
